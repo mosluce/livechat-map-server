@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "node2",
+            "request": "launch",
+            "program": "${workspaceRoot}/dist/entry.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}/dist",
+            "preLaunchTask": "compile",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": [],
+            "outDir": "${workspaceRoot}/dist"
+        },
+        {
+            "name": "Attach",
+            "type": "node2",
+            "request": "attach",
+            "port": 9229,
+            "address": "localhost",
+            "restart": false,
+            "sourceMaps": true,
+            "outFiles": [],
+            "localRoot": "${workspaceRoot}",
+            "remoteRoot": null
+        }
+    ]
+}
