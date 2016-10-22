@@ -1,8 +1,11 @@
 {
-    "watch": ["dist"],
-    "exec": "npm start",
+    "watch": [
+        "dist"
+    ],
+    "ignore": [
+        "node_modules",
+        "**/*.js.map"
+    ],
     "ext": "js json",
-    "exclude": [
-        "node_modules"
-    ]
+    "exec": "npm start"
 }

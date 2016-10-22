@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/socket/index.js"],"names":["io"],"mappings":";;;;;;kBAAe,UAACA,EAAD,EAAQ,CAEtB,C","file":"index.js","sourcesContent":["export default (io) => {\n\n}"]}
